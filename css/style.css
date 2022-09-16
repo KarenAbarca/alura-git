@@ -1,0 +1,74 @@
+body{
+    background-color: #E6E6FA;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    background-color: rebeccapurple;
+    margin-top: 1rem;
+    width: 6rem;
+}
+
+main{
+    display: flex;
+    position: absolute;
+    top: 1em;
+    margin: 0 2em;
+}
+
+
+/*ESTILOS DE LA SECCIÓN IZQUIERDA (INSERCIÓN DEL MENSAJE A ENCRIPTAR)*/
+.section-encriptar{
+    background-color: plum;
+    width: 70%;
+    margin-top: 4rem;
+    padding: 1rem;
+    //height:30rem;
+    height:calc(100%-1rem);
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+}
+
+textarea{
+    width: 100%;
+    font-family: inherit;
+}
+
+.botones{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;    
+}
+
+.boton{
+    padding: 1rem;
+    margin: 1rem 2rem 1rem 0;
+    width: 20rem;
+    border: none;
+    border-radius: 20px;
+    font-family: inherit;
+    font-size: 1.1rem;
+    align-content: center;
+}
+
+/*ESTILOS DE LA SECCIÓN DERECHA (DESPLIEGUE DE RESULTADOS)*/
+.section-resultado{
+    background-color: palevioletred;
+    width: 30%;
+    height:34rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img-resultado{
+    width: 50%;
+}
+
+.copiar{
+    width: 100%;
+}

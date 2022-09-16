@@ -1,0 +1,111 @@
+body{
+    background-color: #E6E6FA;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo{
+    margin-left: 20px;
+    width: 100px;
+}
+
+main{
+    display: flex;
+    margin: 0 40px;
+}
+
+.section-encriptar{
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+    height: 450px;
+}
+
+.form-input textarea, .form-output textarea{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+.form-input textarea{
+    margin-bottom: 20px;
+    height: 350px;
+}
+
+.img-alerta{
+    width: 10px;
+}
+
+label{
+    font-size: 12px;
+}
+
+.botones{
+    margin: 0 auto;
+    bottom: 0px;
+}
+
+.boton{
+    font-family: inherit;
+    padding: 10px 0;
+    width: 200px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.encriptar{
+    background-color: #4B0082;
+    color: white;
+}
+.desencriptar{
+    background-color: #D8BFD8;
+}
+
+.section-resultado{
+    position: absolute;
+    top:20px;
+    right: 40px;
+    width: 22%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    height: 500px;
+}
+
+.img-resultado{
+    width: 80%;
+    padding-top: 5rem;
+    margin-bottom: 10px;
+}
+
+.div-temporal{
+    vertical-align: middle;
+}
+.div-temporal h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.div-temporal h3{
+    font-size: 14px;
+}
+
+.form-output{
+    display: none;
+}
+
+.form-output textarea{
+    margin-bottom: 40px;
+    height: 390px;
+}
+
+.copiar{
+    background-color: #C3B1E1;
+}

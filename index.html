@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-     <meta charset = "UTF-8">
-     <title> Lista de Cursos de DevOps de Alura </title>
-</head>
-<body>
-     <ul>
-         <li> Vagrant: Gerenciando máquinas virtuales </li>
-         <li> Docker: Creando containers sin dolor de cabeza </li>
-         <li> Ansible: Infraestructura como código </li>
-         <li> Integración Continua: Madurez y productividad en el desarrollo de software</li>
-         <li> Kubernetes: Introducción a la orquestación de containers</li>
-     </ul>
-</body>
+<html lang="es">
+
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <title>Challenge 1 - Encriptador</title>
+        
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <header>
+           
+            <img src="img/Logo.png" alt="Logo Alura" class="logo">
+            
+        </header>
+        
+        <main class="main"> 
+           
+            <section class="section-encriptar">
+  
+                <div class="form-input">
+                    <textarea type="text" id="textoOriginal" class="input-texto" placeholder="Ingrese el texto aquí"></textarea>
+                    <img src="img/Exclamacion.png" alt="Exclamación alerta" class="img-alerta">
+                    <label for="input-texto">Solo letras minúsculas, sin acentos ni cáracteres especiales.</label>
+                    
+                    <div class="botones">
+                        <button id="btnEncriptar" class="boton encriptar">Encriptar</button>
+                        <button id="btnDesencriptar" class="boton desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+                
+            </section>
+               
+            <section class="section-resultado">
+                <div class="div-temporal" id="div-temporal">
+                    <img src="img/encriptador.png" alt="Imagen Encriptador" class="img-resultado">
+                    <h2>Ningún mensaje fue encontrado</h2>
+                    <h3>Ingresa el texto que desees encriptar o desencriptar.</h3>
+                </div>      
+      
+                <div class="form-output" id="form-output">
+                    <textarea type="text" id="textoEncriptado" class="output-texto" placeholder="Ningún mensaje"></textarea>
+                    <div class="botones">
+                        <button id="btnCopiar" class="boton copiar">Copiar</button>
+                    </div>
+                </div>
+            </section>
+              
+        </main>
+        
+        <footer>
+        </footer>
+        
+    </body>
+
+    <script src="js/script.js"></script>
+    
 </html>
