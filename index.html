@@ -30,9 +30,12 @@
   
                 <div class="form-input">
                     <textarea type="text" id="textoOriginal" class="input-texto" placeholder="Ingrese el texto aquí"></textarea>
-                    <img src="img/Exclamacion.png" alt="Exclamación alerta" class="img-alerta">
-                    <label for="input-texto">Solo letras minúsculas, sin acentos ni cáracteres especiales.</label>
                     
+                    <div class="alerta">
+                        <img src="img/Exclamacion.png" alt="Exclamación alerta" class="img-alerta">  
+                        <label for="input-texto">Solo letras minúsculas, sin acentos ni cáracteres especiales.</label>  
+                    </div>
+
                     <div class="botones">
                         <button id="btnEncriptar" class="boton encriptar">Encriptar</button>
                         <button id="btnDesencriptar" class="boton desencriptar">Desencriptar</button>
@@ -58,7 +61,8 @@
               
         </main>
         
-        <footer>
+        <footer class="footer">
+            <p class="copyright">&copy Copyright Barbería Alura 2022</p>
         </footer>
         
     </body>
